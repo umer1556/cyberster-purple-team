@@ -85,12 +85,15 @@ cyberster-purple-team/
 
 ## 🛠️ Lab Environment (Persistent Across Weeks)
 
+> ⚠️ *IP addresses and credentials are intentionally omitted from public documentation as part of OPSEC practice. Full details are available in the submitted lab reports.*
+
 | Component | Details |
 |-----------|---------|
 | Hypervisor | VMware Workstation |
-| Attacker VM | Kali Linux 2025.4 (amd64) — `192.168.56.30` |
-| Target VM | Windows 11 (Build 10.0.26200.7840) — `192.168.56.40` |
-| Network | LAN Segment "Intnet" — fully isolated, no internet |
+| Attacker VM | Kali Linux 2025.4 (amd64) |
+| Target VM | Windows 11 (Build 10.0.26200.7840) |
+| Network | VMware LAN Segment — fully isolated, no internet access |
+| Addressing | Static IPs on a private /24 subnet |
 
 ---
 
