@@ -52,7 +52,7 @@ The **Purple Team** bridges the gap between offensive and defensive security. Pu
 | Week | Topic | Status |
 |------|-------|--------|
 | Week 1 | Network Security & Protocol Analysis | ✅ Complete |
-| Week 2 | TBD | 🔜 Upcoming |
+| Week 2 | Active & Passive Reconnaissance + Intrusion Detection | ✅ Complete |
 | Week 3 | TBD | 🔜 Upcoming |
 | Week 4 | TBD | 🔜 Upcoming |
 | Week 5 | TBD | 🔜 Upcoming |
@@ -70,16 +70,37 @@ The **Purple Team** bridges the gap between offensive and defensive security. Pu
 
 ```
 cyberster-purple-team/
-├── README.md              ← You are here
+├── README.md                        ← You are here
 ├── LICENSE
 ├── .gitignore
 ├── Week1/
-│   ├── README.md          ← Week 1 task breakdown & findings
+│   ├── README.md                    ← Week 1 task breakdown & findings
 │   ├── Week1_Lab_Report.pdf
-│   └── screenshots/       ← Raw evidence screenshots (Figs 1–18)
-├── Week2/                 ← Coming soon
+│   └── screenshots/                 ← Raw evidence screenshots (Figs 1–16)
+├── Week2/
+│   ├── README.md                    ← Week 2 task breakdown & findings
+│   ├── Week2_Lab_Report.pdf
+│   └── screenshots/                 ← Raw evidence screenshots (Figs 1–18)
 └── ...
 ```
+
+---
+
+## 🗂️ Week Summaries
+
+### ✅ Week 1 — Network Security & Protocol Analysis
+> **Tasks:** Virtualization setup, internal network topology, packet capture and TCP handshake analysis  
+> **Tools:** VMware Workstation, Kali Linux, Windows 11, Wireshark, smbclient, nmap  
+> **Key Outcome:** Established isolated dual-VM lab environment; captured and analysed full TCP three-way handshake at the Ethernet, IP, and TCP header level  
+> 📂 [View Week 1 →](./Week1/)
+
+---
+
+### ✅ Week 2 — Active & Passive Reconnaissance + Intrusion Detection
+> **Tasks:** DNS enumeration, WHOIS lookup, ICMP/ARP host discovery, SYN stealth scanning, service fingerprinting, Wireshark traffic analysis, Snort 3 IDS deployment and custom rule creation  
+> **Tools:** nmap 7.95, arp-scan, Wireshark 4.6.0, nslookup, Snort 3.11.1.0  
+> **Key Outcome:** Performed full reconnaissance lifecycle from passive DNS intelligence to active port scanning; deployed Snort IDS with a custom ICMP detection rule  
+> 📂 [View Week 2 →](./Week2/)
 
 ---
 
